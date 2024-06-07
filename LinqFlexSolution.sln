@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFlex", "LinqFlex\LinqFlex.csproj", "{A5EC1F80-1774-41DB-8D41-CAF495438AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqFlex.Test", "LinqFlex.Test\LinqFlex.Test.csproj", "{B085B1C9-E2BE-4177-A32F-C42B92D848B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5EC1F80-1774-41DB-8D41-CAF495438AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EC1F80-1774-41DB-8D41-CAF495438AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EC1F80-1774-41DB-8D41-CAF495438AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EC1F80-1774-41DB-8D41-CAF495438AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B085B1C9-E2BE-4177-A32F-C42B92D848B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B085B1C9-E2BE-4177-A32F-C42B92D848B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B085B1C9-E2BE-4177-A32F-C42B92D848B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B085B1C9-E2BE-4177-A32F-C42B92D848B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB251944-AE10-4C4B-B465-E8E40A55C56B}
+	EndGlobalSection
+EndGlobal

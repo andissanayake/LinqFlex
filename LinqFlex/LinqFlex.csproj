@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>LinqFlex</Title>
+    <Authors>Akalnaka Dissanayake</Authors>
+    <Description>LinqFlex is a .NET library that enables dynamic ordering of IQueryable collections. It allows you to sort data dynamically at runtime based on property names or key selectors, providing greater flexibility in data manipulation.</Description>
+    <Copyright>Copyright (c) 2024 Akalanka Dissanayake</Copyright>
+    <PackageProjectUrl>https://github.com/andissanayake/LinqFlex</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/andissanayake/LinqFlex</RepositoryUrl>
+    <PackageTags>dynamic;linq;sorting;order;runtime</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
